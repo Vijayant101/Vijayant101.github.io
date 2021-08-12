@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EFFE TECHNOLOGY</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="model.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="demo-styles.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
+    <script src="https://unpkg.com/focus-visible/dist/focus-visible.js"></script>
+    <style>
+     body{
+       padding:20px;
+         }
+    </style>
+    <script>
+    $(document).ready(function(){
+      $('#MybtnModal').click(function(){
+        $('#Mymodal').modal('show')
+     });
+    });
+   </script>
+  </head>
+  <body>
+    <div id="card">
+     <model-viewer src="bed.glb" camera-controls ar ar-modes="webxr scene-viewer quick-look" ios-src="usdz_bed___1627551977954.usdz" camera-orbit="108.6deg 61.74deg 21.69m" poster="poster.png" auto-rotate>
+          <button id = "MybtnModal" class="Hotspot" slot="hotspot-1" data-position="5.243599063813182m 3.02718895873783m 0.9907414427344258m" data-normal="-0.026678940368155275m 0.9966412122124101m 0.07742433894202985m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Pillow</div> 
+          </button>
+          <button class="Hotspot" slot="hotspot-3" data-position="4.4473220402393885m -2.004939063729449m 2.8410518159649127m" data-normal="0m -1.3435886108395827e-7m 0.999999999999991m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Wheels</div>
+          </button>
+          <button class="Hotspot" slot="hotspot-5" data-position="-6.9280943103044414m 2.0701783821079m 1.9592697750507218m" data-normal="-0.9999970051357964m 0.0024473903191416465m -2.5256998652322114e-7m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Back Side</div>
+          </button>
+          <button class="Hotspot" slot="hotspot-6" data-position="2.900083682530548m 0.3298322627812251m -2.0440287965056427m" data-normal="3.8643264801853157e-7m 5.066124354840511e-7m -0.9999999999997972m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Leg Side</div>
+          </button>
+          <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+          </div>
+          <button slot="ar-button" id="ar-button">
+            View in your space
+          </button>
+          <div id="ar-prompt">
+          </div>
+       </model-viewer>
+    </div>
+  <div class="modal fade" id="Mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button> 
+                    <h4 class="modal-title">Pillow</h4>                                                             
+                </div> 
+                <div class="modal-body">
+                    This is a pillow. Check the below video.
+                </div>   
+                <iframe src="https://www.youtube.com/embed/Fo4T-nR6Dis" allow="autoplay" allowfullscreen=""></iframe>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                               
+                </div>
+            </div>                      
+<style>
+  #error {
+    background-color: #ffffffdd;
+    border-radius: 16px;
+    padding: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    transition: opacity 0.3s;
+  }
+  #error.hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 2s, opacity 1s 1s;
+  }
+</style>
+
+
+
+<script>
+   document.querySelector("#model-viewer").addEventListener('ar-status', (event) => {
+    if(event.detail.status === 'failed'){
+      const error = document.querySelector("#error");
+      error.classList.remove('hide');
+      error.addEventListener('transitionend',(event) => {
+        error.classList.add('hide');
+      });
+    }
+    });
+      
+</script>
+</body>
+</html>

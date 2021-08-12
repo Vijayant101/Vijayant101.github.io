@@ -86,7 +86,10 @@
   }
 </style>
 
-
+<model-viewer ar
+              ar-modes="scene-viewer webxr quick-look"
+              alt="A 3D model of an astronaut."
+              src="bed.glb"></model-viewer>
 
 <script>
    document.querySelector("#model-viewer").addEventListener('ar-status', (event) => {
@@ -102,3 +105,6 @@
 </script>
 </body>
 </html>
+
+<!--<a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">Avocado</a>; -->
+

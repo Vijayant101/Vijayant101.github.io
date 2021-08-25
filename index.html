@@ -1,75 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MB - 3D Model (360) Demo</title>
+    <title>Medikabazaar - BiPAP Machine</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="model.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="demo-styles.css" />
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- The following libraries and polyfills are recommended to maximize browser support -->
+    <!-- NOTE: you must adjust the paths as appropriate for your project -->
+
+    <!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
+    <!--     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> -->
+
+    <!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+    <!--     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script> -->
+
+    <!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
+    <!--     <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script> -->
+
+    <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
     <script src="https://unpkg.com/focus-visible/dist/focus-visible.js"></script>
-    
     <style>
      body{
        padding:20px;
          }
     </style>
-    <script>
-    $(document).ready(function(){
-      $('#MybtnModal').click(function(){
-        $('#Mymodal').modal('show')
-     });
-    });
-   </script>
+
   </head>
   <body>
-    <a href="/scene.html"> Click to open new scene </a>
-    <h1>Medikabazaar Website Compatibility Demo - <i>Stretcher Trolley</i> </h1>
-    <div id="card">
-     <model-viewer src="bed.glb" camera-controls ar ar-modes="webxr scene-viewer quick-look" ios-src="usdz_bed___1627551977954.usdz" camera-orbit="108.6deg 61.74deg 21.69m" poster="poster.png" auto-rotate>
-          <button id = "MybtnModal" class="Hotspot" slot="hotspot-1" data-position="5.243599063813182m 3.02718895873783m 0.9907414427344258m" data-normal="-0.026678940368155275m 0.9966412122124101m 0.07742433894202985m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Pillow</div> 
-          </button>
-          <button class="Hotspot" slot="hotspot-3" data-position="4.4473220402393885m -2.004939063729449m 2.8410518159649127m" data-normal="0m -1.3435886108395827e-7m 0.999999999999991m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Wheels</div>
-          </button>
-          <button class="Hotspot" slot="hotspot-5" data-position="-6.9280943103044414m 2.0701783821079m 1.9592697750507218m" data-normal="-0.9999970051357964m 0.0024473903191416465m -2.5256998652322114e-7m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Back Side</div>
-          </button>
-          <button class="Hotspot" slot="hotspot-6" data-position="2.900083682530548m 0.3298322627812251m -2.0440287965056427m" data-normal="3.8643264801853157e-7m 5.066124354840511e-7m -0.9999999999997972m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Leg Side</div>
-          </button>
-          <div class="progress-bar hide" slot="progress-bar">
-            <div class="update-bar"></div>
-          </div>
-          <button slot="ar-button" id="ar-button">
-            View in your space
-          </button>
-          <div id="ar-prompt">
-          </div>
-       </model-viewer>
+    <h1> BiPAP Machine </h1>
+    <div>
+      <!-- All you need to put beautiful, interactive 3D content on your site: -->
+        <model-viewer src="Bipap_V8.glb" poster="poster.webp" ios-src="usdz_bipap___1629884919656.usdz"
+        alt="BiPAP Machine"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+      >
+ <button id = "MybtnModal" class="Hotspot" slot="hotspot-1" data-position="-0.03340017486486512m 0.15309947691301026m 0.057835678983452585m" data-normal="-0.10350951225050115m 0.08489909032719616m -0.9909984487047788m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Air Outlet</div>
+    </button><button id = "MybtnModal2" class="Hotspot" slot="hotspot-2" data-position="0.10642486438065898m 0.08518693835344653m -0.11312549810476713m" data-normal="0.9822394212296138m -0.18763187197944187m -6.324044576899725e-8m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">SpO2 Kit</div>
+    </button>
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar">
+          </div></div>
+      </model-viewer>
     </div>
-  <div class="modal fade" id="Mymodal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">×</button> 
-                    <h4 class="modal-title">Pillow</h4>                                                             
-                </div> 
-                <div class="modal-body">
-                    This is a pillow. Watch video to know more about Medikabazaar.
-                </div>   
-                <iframe width="580" height="400" src="https://www.youtube.com/embed/PSC-Pg5D2S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="modal-footer">
+    <div class="modal fade" id="Mymodal">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">×</button> 
+                      <h3 class="modal-title">Air Outlet</h3>                                                             
+                  </div> 
+                    <div class="modal-body">
+                    Fix the mask to the air outlet of the device
+                    <br>
+                    <br><img src="https://effeconsultancy.com/wp-content/uploads/2021/08/1.jpg" width="350" height="250"><br>
+                    
+                    </div><br>
+                  <div class="modal-footer">                   
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                               
+                  </div>
+              </div>
+          </div>
+  </div>
+  <div class="modal fade" id="Mymodal2">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">×</button> 
+                      <h3 class="modal-title">SpO2 Kit</h3>                                                             
+                  </div> 
+                  <div class="modal-body">
+                    Connect the SpO2 kit to the device to identify the SpO2 and pulse rate.
+                    <img src="https://effeconsultancy.com/wp-content/uploads/2021/08/3.jpg" width="350" height="250">
+                    </div>
+                  <div class="modal-footer">                   
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                               
                 </div>
-            </div>                      
+            </div>
+      </div>
+  </div>
+    </body>
+</html>
+    <!-- 💁 Include both scripts below to support all browsers! -->
+
+    <!-- Loads <model-viewer> for modern browsers: -->
+    <script>
+   document.querySelector("#model-viewer").addEventListener('ar-status', (event) => {
+    if(event.detail.status === 'failed'){
+      const error = document.querySelector("#error");
+      error.classList.remove('hide');
+      error.addEventListener('transitionend',(event) => {
+        error.classList.add('hide');
+      });
+    }
+    }); 
+</script>
+<script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+
+    <!-- Loads <model-viewer> for old browsers like IE11: -->
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+    <script>
+    $(document).ready(function(){
+        $('#MybtnModal').click(function(){
+            $('#Mymodal').modal('show')
+        });
+    
+        $('#MybtnModal2').click(function(){
+            $('#Mymodal2').modal('show')
+        });
+    });
+   </script>
 <style>
   #error {
     background-color: #ffffffdd;
@@ -87,24 +144,3 @@
     transition: visibility 2s, opacity 1s 1s;
   }
 </style>
-
-
-<script>
-   document.querySelector("#model-viewer").addEventListener('ar-status', (event) => {
-    if(event.detail.status === 'failed'){
-      const error = document.querySelector("#error");
-      error.classList.remove('hide');
-      error.addEventListener('transitionend',(event) => {
-        error.classList.add('hide');
-      });
-    }
-    });
-      
-</script>
-
-
-</body>
-</html>
-
-
-

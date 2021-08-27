@@ -36,15 +36,38 @@
         <!-- An aside -->
         <!-- This is for holding the 3D object -->
         <div id="aSide">
-
+            <style>
+                button{
+                  display: block;
+                  width: 6px;
+                  height: 6px;
+                  border-radius: 3px;
+                  border: 3px solid blue;
+                  background-color: blue;
+                  box-sizing: border-box;
+                }
+              
+                #annotation{
+                  background-color: #dddddd;
+                  position: absolute;
+                  transform: translate(10px, 10px);
+                  border-radius: 10px;
+                  padding: 10px;
+                }
+              </style> 
             <!-- 3D objsect -->
             <!-- This inserts the 3D object inside the aside container -->
             <model-viewer src="assets/Bipap_V8.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/usdz_bipap___1629884919656.usdz">
+                <!--Adds Annotations-->
+                <!--<button slot="hotspot-hand" data-position="-0.023 0.0594 0.0714" data-normal="-0.3792 0.0004 0.9253">
+                    <div id="annotation">Whistle</div>
+                  </button> -->
+                  <button slot="hotspot-3" class="hotspot selected" data-position="-0.0062785143141133384m 0.13856562668705835m 0.05215183748302128m" data-normal="-0.5706340756888914m -0.5254382244184755m -0.6311033385925353m"><div class="annotation">
+                    <div class="annotation">Mask Connector</div>
+                  </button>
+                    
+                  <!--Annotations Ends Here-->
             </model-viewer>
-            <!--Adds Annotations-->
-            
-
-            <!--Annotations Ends Here-->
         </div>
 
         <!-- Content container -->

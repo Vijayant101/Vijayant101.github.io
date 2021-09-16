@@ -13,6 +13,20 @@
     <!--It helps to handle how the 3D Object would be displayed -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- Style to create button -->
+    <style>
+      .GFG {
+          background-color: white;
+          border: 2px solid black;
+          color: green;
+          padding: 5px 10px;
+          text-align: center;
+          display: inline-block;
+          font-size: 20px;
+          margin: 10px 30px;
+          cursor: pointer;
+      }
+  </style>
 </head>
 
 <body>
@@ -166,9 +180,15 @@
         <div id="content">
           <h2>3D AR LIVE</h2>
           <p>Dental Chair</p>
-          <button>Shop</button>
-          <a href="/360test">360 Demo</a>
-          <a href="/">BiPAP Demo</a>
+        
+          <button class="GFG" 
+    onclick="window.location.href = '/360test';">
+        360 Demo
+    </button>
+    <button class="GFG" 
+    onclick="window.location.href = '/';">
+        BiPAP Demo
+    </button>
       </div>
 
       <!-- Social media icons -->

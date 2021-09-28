@@ -12,11 +12,10 @@
 <!-- Use these three includes on your pages under <head> section -->
 
 <link type="text/css" rel="stylesheet" href="imagerotator/html/css/thin.css"/>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
 <script type="text/javascript" src="imagerotator/html/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="imagerotator/html/js/imagerotator.js"></script>
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-<link rel="stylesheet" href="css/style.css">
-<script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+
 
 <style type= "text/css">
 
@@ -30,7 +29,7 @@ html, body
 
 #content
 {
-    width: 450px;
+    width: 100%;
     height: 450px;
     /* border: 1px dotted #cecfd2; */
 }
@@ -66,94 +65,20 @@ jQuery(document).ready(function(){
 
 
 <body>
-    <div id="container">
 
-        <!-- Navbar container -->
-        <div id="navbar">
-            <div id="logo">
-                <img src="360_assets/logo.jpg" alt="logo">
-            </div>
-            <ul>
-                <li class="active">
-                    <a href="#">Home</a>
-                </li>
-                <li><a href="#">Tech</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </div>
+    <div class="responsive-wrapper-demo-do-not-copy" style="max-width:600px;">    
 
-
-
+        <!-- Just copy / paste the content div below onto your page and define content CSS styles as needed -->
 
         <div id="content">
-            <h2>Comen C50</h2>
-            <p>Multiparameter Patient Monitor</p>
-            <button class="GFG" 
-            onclick="window.location.href = '/';">
-            Home
-            </button> <br>
-            <button class="GFG" 
-            onclick="window.location.href = '/Dental';">
-            Dental Chair
-            </button>
 
-
-        <div id="aSide">
-            <style>
-                button{
-                  display: block;
-                  width: 20px;
-                  height: 20px;
-                  border-radius: 10px;
-                  border: none;
-                  background-color: blue;
-                  box-sizing: border-box;
-                }
-              
-                button[slot="hotspot-hand"]{
-                  --min-hotspot-opacity: 0;
-                  background-color: red;
-                }
-              
-                button[slot="hotspot-foot"]:not([data-visible]) {
-                  background-color: transparent;
-                  border: 3px solid blue;
-                }
-              
-                #annotation{
-                  background-color: #888888;
-                  position: absolute;
-                  transform: translate(10px, 10px);
-                  border-radius: 10px;
-                  padding: 10px;
-                }
-                /* This keeps child nodes hidden while the element loads */
-                :not(:defined) > * {
-                  display: none;
-                }
-              </style> 
-
-        <div class="responsive-wrapper-demo-do-not-copy" style="max-width:600px;" style="float:right;">    
-            <!-- Just copy / paste the content div below onto your page and define content CSS styles as needed -->
-            
-    
-                <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;">
-                </div>
+            <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;">
             </div>
-        </div>  
-      
-    <!-- Social media icons -->
-    <!-- This is for holding some company's social media icons and related links -->
-    <div id="icons">
-        <div id="iconsLogo">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-twitter"></i>
+
         </div>
-   </div>
+
+    </div>    
+
 
 </body>
 

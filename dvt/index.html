@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 
 <head>
-<title>ECG</title>
+<title>DVT</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
 <!-- Use these three includes on your pages under <head> section -->
 
-<link type="text/css" rel="stylesheet" href="imagerotator/html/css/basic.css"/>
+<link type="text/css" rel="stylesheet" href="imagerotator/html/css/retina.css"/>
 <link type="text/css" rel="stylesheet" href="css/style.css"/>
 <script type="text/javascript" src="imagerotator/html/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="imagerotator/html/js/imagerotator.js"></script>
@@ -25,8 +25,8 @@ html, body
 
 #content
 {
-    width: 430px;
-    height: 430px;
+    width: 598px;
+    height: 598px;
     /* border: 1px dotted #cecfd2; */
 }
 
@@ -36,12 +36,7 @@ html, body
 
 
 <body>
-
-    <!--
-        Just copy / paste the content div below onto your page and define content CSS styles as needed.
-        Then set configFileURL below to point to your product configuration XML.
-    -->
-    <div id="container">
+        <div id="container">
         <div id="navbar">
             <div id="logo">
                 <img src="360_assets/logo.jpg" alt="logo">
@@ -56,11 +51,14 @@ html, body
                 <li><a href="#">Help</a></li>
             </ul>
         </div>
-
+    <!--
+        Just copy / paste the content div below onto your page and define content CSS styles as needed.
+        Then set configFileURL below to point to your product configuration XML.
+    -->
 
     <div id="content">
 
-        <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;float:right">
+        <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;float: right;">
         </div>
 
         <script language="javascript" type="text/javascript">
@@ -68,9 +66,9 @@ html, body
             var rotator = WR360.ImageRotator.Create('wr360PlayerId');
 
             rotator.licenseFileURL = 'license.lic';
-            rotator.settings.configFileURL = '360_assets/ECG/ECG.xml';
-            rotator.settings.graphicsPath = 'imagerotator/html/img/basic';
-		    rotator.settings.alt = '360 degree view - ECG';
+            rotator.settings.configFileURL = '360_assets/DVT/DVT.xml';
+            rotator.settings.graphicsPath = 'imagerotator/html/img/retina';
+		    rotator.settings.alt = '360 degree view - DVT';
             rotator.settings.googleEventTracking = false;
             rotator.settings.responsiveBaseWidth = 0;
             rotator.settings.responsiveMinHeight = 0;
@@ -79,7 +77,9 @@ html, body
 
         </script>
 
-        
+
+
+
 <div id="content">
     <h2>Comen C50</h2>
     <p>Multiparameter Patient Monitor</p>
@@ -87,8 +87,7 @@ html, body
 onclick="window.location.href = '/';">
     Home
 </button> <br>
-  </div>
-
+</div>
 
   <div id="icons">
     <div id="iconsLogo">

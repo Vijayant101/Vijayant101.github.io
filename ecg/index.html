@@ -58,26 +58,7 @@ html, body
         </div>
 
 
-    <div id="content">
-
-        <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;float:right">
-        </div>
-
-        <script language="javascript" type="text/javascript">
-
-            var rotator = WR360.ImageRotator.Create('wr360PlayerId');
-
-            rotator.licenseFileURL = 'license.lic';
-            rotator.settings.configFileURL = '360_assets/ECG/ECG.xml';
-            rotator.settings.graphicsPath = 'imagerotator/html/img/basic';
-		    rotator.settings.alt = '360 degree view - ECG';
-            rotator.settings.googleEventTracking = false;
-            rotator.settings.responsiveBaseWidth = 0;
-            rotator.settings.responsiveMinHeight = 0;
-
-            rotator.runImageRotator();
-
-        </script>
+    
 
         
 <div id="content">
@@ -100,7 +81,26 @@ onclick="window.location.href = '/';">
 </div>
     </div>
 
+    <div id="content">
 
+        <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;float:right">
+        </div>
+
+        <script language="javascript" type="text/javascript">
+
+            var rotator = WR360.ImageRotator.Create('wr360PlayerId');
+
+            rotator.licenseFileURL = 'license.lic';
+            rotator.settings.configFileURL = '360_assets/ECG/ECG.xml';
+            rotator.settings.graphicsPath = 'imagerotator/html/img/basic';
+		    rotator.settings.alt = '360 degree view - ECG';
+            rotator.settings.googleEventTracking = false;
+            rotator.settings.responsiveBaseWidth = 0;
+            rotator.settings.responsiveMinHeight = 0;
+
+            rotator.runImageRotator();
+
+        </script>
 </body>
 
 </html>

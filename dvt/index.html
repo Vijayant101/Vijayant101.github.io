@@ -41,25 +41,26 @@ html, body
 
 
 <body>
-        <div id="container">
-        <div id="navbar">
-            <div id="logo">
-                <a href="/"> <img src="360_assets/logo.jpg" alt="logo"></a>
-            </div>
-            <ul>
-                <li class="active">
-                    <a href="/">Home</a>
-                </li>
-                <li><a href="/Dental">Dental 3D</a></li>
-                <li><a href="/monitor/">Patient Monitor 360</a></li>
-                <li><a href="/ecg/">ECG 360</a></li>
-                <li><a href="/dvt/">DVT 360</a></li>
-            </ul>
-        </div>
-    <!--
-        Just copy / paste the content div below onto your page and define content CSS styles as needed.
-        Then set configFileURL below to point to your product configuration XML.
-    -->
+        
+   <!-- Navigation -->
+   <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+    <div class="container">
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="/index.html"><img src="/images/logo.png" alt="alternative"></a> 
+
+         <span class="nav-item">
+            <a class="btn-outline-sm" href="/video.html">Product Video</a>
+        </span>
+        <span class="nav-item">
+          <a class="btn-outline-sm" href="/Dental/index.html">3D-AR</a>
+      </span>
+      <span class="nav-item">
+        <a class="btn-outline-sm" href="/dvt/index.html">360 product visualisation</a>
+    </span>
+        
+    </div> <!-- end of container -->
+</nav> <!-- end of navbar -->
 
     <div id="content">
 
@@ -81,19 +82,6 @@ html, body
             rotator.runImageRotator();
 
         </script>
-
-
-
-
-<div id="content">
-    <h2>Comen C50</h2>
-    <p>Multiparameter Patient Monitor</p>
-      <button class="GFG" 
-onclick="window.location.href = '/';">
-    Home
-</button> <br>
-</div>
-
     </div>
 
 

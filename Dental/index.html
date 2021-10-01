@@ -12,7 +12,7 @@
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
 	  <link href="css/styles.css" rel="stylesheet">
-
+    <link rel="icon" href="assets/favicon.png">
 
     <!--Imports a model-viewer JavaScript code -->
     <!--It helps to handle how the 3D Object would be displayed -->
@@ -21,12 +21,14 @@
 </head>
 
 <body>
+
+  
   <!-- Navigation -->
   <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
     <div class="container">
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
+        <a class="navbar-brand logo-image" href="/index.html"><img src="assets/logo.jpg" alt="alternative"></a> 
 
         <!-- Text Logo - Use this if you don't have a graphic logo -->
         <!-- <a class="navbar-brand logo-text" href="index.html">Yavin</a> -->
@@ -36,47 +38,22 @@
         </button>
 
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#header">Home</a>
-                </li>
-                
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">3D/AR Product Visualisation</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                        <li><a class="dropdown-item" href="/Dental/index.html">Dental Chair</a></li>
-                        <li><div class="dropdown-divider"></div></li>
-                        <li><a class="dropdown-item" href="/bipap/index.html">BiPAP Machine</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">360 degree Products Visualisation</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                        <li><a class="dropdown-item" href="/assets/dvt/index.html">DVT Pump</a></li>
-                        <li><div class="dropdown-divider"></div></li>
-                        <li><a class="dropdown-item" href="/assets/monitor/index.html">Patient Monitor</a></li>
-                        <li><div class="dropdown-divider"></div></li>
-                        <li><a class="dropdown-item" href="/assets/ecg/index.html">ECG Machine</a></li>
-                    </ul>
-                </li>
-            </ul>
+            
             <span class="nav-item">
                 <a class="btn-outline-sm" href="video.html">Product Video</a>
             </span>
+            <span class="nav-item">
+              <a class="btn-outline-sm" href="/Dental/index.html">3D-AR</a>
+          </span>
+          <span class="nav-item">
+            <a class="btn-outline-sm" href="/assets/dvt/index.html">360 product visualisation</a>
+        </span>
         </div> <!-- end of navbar-collapse -->
     </div> <!-- end of container -->
 </nav> <!-- end of navbar -->
 <!-- end of navigation -->
 
-    <!-- Main Container -->
-    <div id="container">
-        <!-- An aside -->
-        <!-- This is for holding the 3D object -->
-        <div id="aSide">
-                        <!-- 3D objsect -->
-            <!-- This inserts the 3D object inside the aside container -->
+ 
               <div id="card">
                 <!-- All you need to put beautiful, interactive 3D content on your site: -->
                 <model-viewer id="dental-chair" 
@@ -160,8 +137,8 @@
             
                   </div>
                 </model-viewer>
-          </div>      
-      </div>
+              
+      
    
   
       <script>

@@ -38,6 +38,25 @@
     
     </style>
 
+<script language="javascript" type="text/javascript">
+
+    jQuery(document).ready(function(){
+    
+        jQuery('#wr360PlayerId').rotator({
+            licenseFileURL: 'license.lic',
+            configFileURL: '360_assets/DVT/DVT.xml',
+            graphicsPath: 'imagerotator/html/img/retina',
+            alt: '360 degree view - DVT ',
+            responsiveBaseWidth: 0,
+            responsiveMinHeight: 0,
+            googleEventTracking: false,
+        });
+    
+    });
+    
+    </script>
+
+
 </head>
 
 
@@ -63,28 +82,18 @@
     </div> <!-- end of container -->
 </nav> <!-- end of navbar -->
 
+<div class="responsive-wrapper-demo-do-not-copy" style="max-width: 400px;float: right;">    
+
+    <!-- Just copy / paste the content div below onto your page and define content CSS styles as needed -->
+
     <div id="content">
 
-        <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;float: right;">
+        <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;">
         </div>
 
-        <script language="javascript" type="text/javascript">
-
-            var rotator = WR360.ImageRotator.Create('wr360PlayerId');
-
-            rotator.licenseFileURL = 'license.lic';
-            rotator.settings.configFileURL = '360_assets/DVT/DVT.xml';
-            rotator.settings.graphicsPath = 'imagerotator/html/img/retina';
-		    rotator.settings.alt = '360 degree view - DVT';
-            rotator.settings.googleEventTracking = false;
-            rotator.settings.responsiveBaseWidth = 0;
-            rotator.settings.responsiveMinHeight = 0;
-
-            rotator.runImageRotator();
-
-        </script>
     </div>
 
+</div>  
 
 </body>
 

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/1.png?t=1632805468" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="arrow_zoom_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" />
+    <control dragSpeed="0.09" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" />
+    <rotation firstImage="0" rotate="true" rotatePeriod="9" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="screen" renderMode="0" indicatorImage="circ-cross-large-orange.svg" effects="scaleUp">
+      <spotinfo src="images/spots/Screen.jpg?t=1632805468" imgWidth="480" txt="8.4-inch TFT touch screen, touch and jog dial dual operation" css="font-family:Arial Black;font-size:14px;color:#333333;width:200px;padding:15px 15px;border:7px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.medikabazaar.com/comen-vital-sign-patient-monitor-with-comen-spo2-12-1-c80-mbc0035.html" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="standoptions" renderMode="0" indicatorImage="circ-cross-thin-blue.svg" effects="scaleUp">
+      <spotinfo src="images/spots/Screen 2.jpg?t=1632805468" imgWidth="515" txt="Mounting options" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.medikabazaar.com/hospital-and-medical-furniture/hospital-furniture/monitor-stand" urlTarget="_blank" />
+    </hotspot>
+    <hotspot id="batterycapacity" renderMode="0" indicatorImage="circ-cross-thin-blue.svg" effects="scaleUp">
+      <spotinfo src="images/spots/Screen 3.jpg?t=1632805468" imgWidth="492" txt="4000 mAh battery capacity" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.medikabazaar.com/medical-equipment-devices-and-machines/cardiology/patient-monitor" urlTarget="_blank" />
+    </hotspot>
+    <hotspot id="modesscreen" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo src="images/spots/Screen 4.jpg?t=1632805468" imgWidth="457" imgNoScale="true" txt="Screen Modes" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.medikabazaar.com/medical-equipment-devices-and-machines/cardiology/patient-monitor" urlTarget="_blank" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="640" highresHeight="640">
+    <image src="images/1.png?t=1632805468">
+      <hotspot source="screen" offsetX="222" offsetY="222" />
+      <highres src="images/highres/1.png?t=1632805468" />
+    </image>
+    <image src="images/2.png?t=1632805468">
+      <hotspot source="modesscreen" offsetX="136" offsetY="126" />
+      <highres src="images/highres/2.png?t=1632805468" />
+    </image>
+    <image src="images/3.png?t=1632805468">
+      <highres src="images/highres/3.png?t=1632805468" />
+    </image>
+    <image src="images/4.png?t=1632805468">
+      <highres src="images/highres/4.png?t=1632805468" />
+    </image>
+    <image src="images/5.png?t=1632805468">
+      <highres src="images/highres/5.png?t=1632805468" />
+    </image>
+    <image src="images/6.png?t=1632805468">
+      <highres src="images/highres/6.png?t=1632805468" />
+    </image>
+    <image src="images/7.png?t=1632805468">
+      <hotspot source="standoptions" offsetX="213" offsetY="207" />
+      <highres src="images/highres/7.png?t=1632805468" />
+    </image>
+    <image src="images/8.png?t=1632805468">
+      <highres src="images/highres/8.png?t=1632805468" />
+    </image>
+    <image src="images/9.png?t=1632805468">
+      <highres src="images/highres/9.png?t=1632805468" />
+    </image>
+    <image src="images/10.png?t=1632805468">
+      <hotspot source="batterycapacity" offsetX="230" offsetY="347" />
+      <highres src="images/highres/10.png?t=1632805468" />
+    </image>
+    <image src="images/11.png?t=1632805468">
+      <highres src="images/highres/11.png?t=1632805468" />
+    </image>
+    <image src="images/12.png?t=1632805468">
+      <highres src="images/highres/12.png?t=1632805468" />
+    </image>
+  </images>
+</config>

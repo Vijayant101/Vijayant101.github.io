@@ -8,15 +8,17 @@
 <!-- Use these three includes on your pages under <head> section -->
 
 <link type="text/css" rel="stylesheet" href="imagerotator/html/css/retina.css"/>
-<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+<script type="text/javascript" src="imagerotator/html/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="imagerotator/html/js/imagerotator.js"></script>
+<link rel="icon" href="360_assets/favicon.png">
+
+<!-- Styles -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/fontawesome-all.min.css" rel="stylesheet">
 <link href="css/swiper.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
-<script type="text/javascript" src="imagerotator/html/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="imagerotator/html/js/imagerotator.js"></script>
-<link rel="icon" href="360_assets/favicon.png">
 
 
 <style type= "text/css">
@@ -62,25 +64,55 @@
 
 <body>
         
-   <!-- Navigation -->
-   <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+ <!-- Navigation -->
+ <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
     <div class="container">
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="/"><img src="/images/logo.png" alt="alternative"></a> 
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
 
-         <span class="nav-item">
-            <a class="btn-outline-sm" href="/video.html">Product Video</a>
-        </span>
-        <span class="nav-item">
-          <a class="btn-outline-sm" href="/Dental/">3D-AR</a>
-      </span>
-      <span class="nav-item">
-        <a class="btn-outline-sm" href="/ecg/">360 product visualisation</a>
-    </span>
-        
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text" href="index.html">Yavin</a> -->
+
+        <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                </li>
+                
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">3D/AR Product Visualisation</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                        <li><a class="dropdown-item" href="/Dental/">Dental Chair</a></li>
+                        <li><div class="dropdown-divider"></div></li>
+                        <li><a class="dropdown-item" href="/bipap/">BiPAP Machine</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">360 degree Products Visualisation</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                        <li><a class="dropdown-item" href="/dvt/">DVT Pump</a></li>
+                        <li><div class="dropdown-divider"></div></li>
+                        <li><a class="dropdown-item" href="/monitor/">Patient Monitor</a></li>
+                        <li><div class="dropdown-divider"></div></li>
+                        <li><a class="dropdown-item" href="/ecg/">ECG Machine</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <span class="nav-item">
+                <a class="btn-outline-sm" href="video.html">Product Video</a>
+            </span>
+        </div> <!-- end of navbar-collapse -->
     </div> <!-- end of container -->
 </nav> <!-- end of navbar -->
+<!-- end of navigation -->
+
 
 <div class="responsive-wrapper-demo-do-not-copy" style="max-width: 400px;float: right;">    
 
@@ -94,7 +126,8 @@
     </div>
 
 </div>  
-
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

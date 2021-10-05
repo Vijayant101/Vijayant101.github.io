@@ -91,12 +91,11 @@
     <!-- end of navigation -->
 
 
- 
+ <br><br><br><br><br><br><br><br><br>
              
                 <!-- All you need to put beautiful, interactive 3D content on your site: -->
-               <br/><br/>
-               <br/> <br/> <br/>            
-                <div class="card mb-12" style="max-width: 100%;">
+                        
+                <div class="card mb-6">
                   <div class="row no-gutters">
                     <div class="col-md-12">
                       <model-viewer id="dental-chair" 
@@ -189,33 +188,34 @@
                       </div>
                     </div>
                   </div>
+                
+  
+                    <script>
+                      // Get the modal
+                      var modal = document.getElementById("myModal");
+                
+                      var span = document.getElementsByClassName("close")[0];
+                
+                      function UpdateInfo(description, imagePath) {
+                        modal.style.display = "block";
+                        document.getElementById('Description').innerHTML = description;
+                        document.getElementById('ReferenceImage').src = imagePath;
+                      }
+                      span.onclick = function () 
+                      {
+                        modal.style.display = "none";
+                      }
+                
+                      // When the user clicks anywhere outside of the modal, close it
+                      window.onclick = function (event) 
+                      {
+                        if (event.target == modal) 
+                        {
+                          modal.style.display = "none";
+                        }
+                      }
+                    </script>
                 </div>
-  
-      <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-  
-        var span = document.getElementsByClassName("close")[0];
-  
-        function UpdateInfo(description, imagePath) {
-          modal.style.display = "block";
-          document.getElementById('Description').innerHTML = description;
-          document.getElementById('ReferenceImage').src = imagePath;
-        }
-        span.onclick = function () 
-        {
-          modal.style.display = "none";
-        }
-  
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) 
-        {
-          if (event.target == modal) 
-          {
-            modal.style.display = "none";
-          }
-        }
-      </script>
      <!-- 💁 Include both scripts below to support all browsers! -->
     <!-- Loads <model-viewer> for modern browsers: -->
       <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">

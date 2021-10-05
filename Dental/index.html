@@ -90,20 +90,16 @@
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
 
-
- <br><br><br><br><br><br><br><br><br>
-             
-                <!-- All you need to put beautiful, interactive 3D content on your site: -->
-                        
-                <div class="card mb-6">
-                  <div class="row no-gutters">
-                    <div class="col-md-12">
-                      <model-viewer id="dental-chair" 
-                      src="assets/Chair.glb"
-                      shadow-intensity="1" camera-orbit="265.3deg 56.1deg auto" interaction-prompt="none" camera-controls
-                      ar-scale="auto" ar-modes="webxr scene-viewer quick-look" ar>
-                
-                      <button id="dentalLight" class="Hotspot" slot="hotspot-1"
+       
+               <!--New Card-->
+                <div id="card">
+                  <!-- All you need to put beautiful, interactive 3D content on your site: -->
+                  <model-viewer id="resp-machine"
+                    src="assets/Chair.glb"
+                    shadow-intensity="1" camera-orbit="265.3deg 56.1deg auto" interaction-prompt="none" camera-controls
+                    ar-scale="fixed" ar-modes="webxr scene-viewer quick-look" ar>
+              
+                    <button id="dentalLight" class="Hotspot" slot="hotspot-1"
                         onclick="UpdateInfo('Dental light brings clear view to tooth surfaces with stadium effect','assets/1.jpg')"
                         data-position="-1.0982877329295961m 1.5635724861728222m -0.10998611828382332m"
                         data-normal="-0.9290169154442182m -0.3700372559863567m -7.732690838317362e-7m"
@@ -167,55 +163,47 @@
                         data-position="-1.0150980921121675m 0.9021053438920841m 0.12336157880586622m"
                         data-normal="0.02258859535793891m 0.1123476683867352m 0.9934121786890977m" data-visibility-attribute="visible">
                       </button>
-                
-                
-                      <div id="myModal" class="modal">
-                
-                        <div class="modal-content">
-                          <span class="close">&times;</span>
-                          <img id="ReferenceImage" src="" width="100%" height=auto alt="">
-                          <p id="Description">Some text in the Modal..</p>
-                        </div>
-                
+              
+                    <div id="myModal" class="modal">
+                     
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img id="refimg" src=""
+                          width="100%" height=auto alt="">
+                        <p id="demo">Click to close</p>
                       </div>
-                    </model-viewer>
+              
                     </div>
-                    <div class="col-md-12">
-                      <div class="card-body">
-                        <h5 class="card-title">Dental Chair</h5>
-                        <p class="card-text">Experience AR through supported devices</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                  </div>
-                
-  
-                    <script>
-                      // Get the modal
-                      var modal = document.getElementById("myModal");
-                
-                      var span = document.getElementsByClassName("close")[0];
-                
-                      function UpdateInfo(description, imagePath) {
-                        modal.style.display = "block";
-                        document.getElementById('Description').innerHTML = description;
-                        document.getElementById('ReferenceImage').src = imagePath;
-                      }
-                      span.onclick = function () 
+                  </model-viewer>
+              
+              
+                  <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+              
+                    var span = document.getElementsByClassName("close")[0];
+              
+                    function UpdateInfo(description, imagePath) {
+                      modal.style.display = "block";
+                      document.getElementById('Description').innerHTML = description;
+                      document.getElementById('ReferenceImage').src = imagePath;
+                    }
+                    span.onclick = function () 
+                    {
+                      modal.style.display = "none";
+                    }
+              
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function (event) 
+                    {
+                      if (event.target == modal) 
                       {
                         modal.style.display = "none";
                       }
-                
-                      // When the user clicks anywhere outside of the modal, close it
-                      window.onclick = function (event) 
-                      {
-                        if (event.target == modal) 
-                        {
-                          modal.style.display = "none";
-                        }
-                      }
-                    </script>
+                    }
+                  </script>          
                 </div>
+
      <!-- 💁 Include both scripts below to support all browsers! -->
     <!-- Loads <model-viewer> for modern browsers: -->
       <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">

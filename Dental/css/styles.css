@@ -1822,3 +1822,12 @@ body {
     font-style: italic;
     line-height: 1.5em;
   }
+
+  .dropdown:hover > .dropdown-menu,
+.dropdown:hover > .dropdown-menu.show {
+	display: block;
+}
+.dropdown > .dropdown-menu,
+.dropdown > .dropdown-menu.show {
+	display: none;
+}

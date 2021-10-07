@@ -7,16 +7,16 @@
     <rotation firstImage="0" rotate="true" rotatePeriod="12" bounce="false" rotateDirection="1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
   </settings>
   <hotspots>
-    <hotspot id="operate" renderMode="0" indicatorImage="geo-short-red.svg">
+    <hotspot id="operate" renderMode="3" indicatorImage="geo-short-red.svg">
       <spotinfo src="images/spots/4.jpg?t=1632895608" imgWidth="190" txt="Learn to operate" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.youtube.com/watch?v=apOoI5TR3k0" urlTarget="_blank" />
     </hotspot>
-    <hotspot id="output" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+    <hotspot id="output" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
       <spotinfo src="images/spots/6.jpg?t=1632895608" imgWidth="193" txt="ECG report" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="controls" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+    <hotspot id="controls" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
       <spotinfo src="images/spots/5.jpg?t=1632895608" imgWidth="185" txt="Onboard controls" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="screen" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+    <hotspot id="screen" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
       <spotinfo src="images/spots/7.jpg?t=1632895608" imgWidth="199" imgNoScale="true" txt="High-Res LCD Screen" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
   </hotspots>

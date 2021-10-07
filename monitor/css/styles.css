@@ -1764,12 +1764,13 @@ body {
   
   .Hotspot
   {
-      height: 15px;
+    height: 15px;
     width: 15px;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
     --min-hotspot-opacity:0;  
+	text-align: center;
   }
   
   

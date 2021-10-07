@@ -23,14 +23,17 @@ max-height:100%;;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgb
   </hotspots>
   <images rows="1" highresWidth="640" highresHeight="640">
     <image src="images/1.png?t=1633587149">
-      <hotspot source="screen" offsetX="222" offsetY="221" />
+      <hotspot source="screen" offsetX="230" offsetY="216" />
       <highres src="images/highres/1.png?t=1633587149" />
     </image>
     <image src="images/2.png?t=1633587149">
+    <hotspot source="screen" offsetX="197" offsetY="216" />
       <hotspot source="modesscreen" offsetX="136" offsetY="126" />
       <highres src="images/highres/2.png?t=1633587149" />
     </image>
     <image src="images/3.png?t=1633587149">
+    <hotspot source="screen" offsetX="184" offsetY="216" />
+    <hotspot source="modesscreen" offsetX="170" offsetY="126" />
       <highres src="images/highres/3.png?t=1633587149" />
     </image>
     <image src="images/4.png?t=1633587149">
@@ -40,6 +43,7 @@ max-height:100%;;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgb
       <highres src="images/highres/5.png?t=1633587149" />
     </image>
     <image src="images/6.png?t=1633587149">
+    <hotspot source="standoptions" offsetX="230" offsetY="207" />
       <highres src="images/highres/6.png?t=1633587149" />
     </image>
     <image src="images/7.png?t=1633587149">
@@ -47,9 +51,11 @@ max-height:100%;;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgb
       <highres src="images/highres/7.png?t=1633587149" />
     </image>
     <image src="images/8.png?t=1633587149">
+    <hotspot source="standoptions" offsetX="200" offsetY="207" />
       <highres src="images/highres/8.png?t=1633587149" />
     </image>
     <image src="images/9.png?t=1633587149">
+    <hotspot source="batterycapacity" offsetX="210" offsetY="347" />
       <highres src="images/highres/9.png?t=1633587149" />
     </image>
     <image src="images/10.png?t=1633587149">
@@ -57,6 +63,7 @@ max-height:100%;;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgb
       <highres src="images/highres/10.png?t=1633587149" />
     </image>
     <image src="images/11.png?t=1633587149">
+    <hotspot source="batterycapacity" offsetX="240" offsetY="347" />
       <highres src="images/highres/11.png?t=1633587149" />
     </image>
     <image src="images/12.png?t=1633587149">

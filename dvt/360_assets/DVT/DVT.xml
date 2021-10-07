@@ -28,13 +28,16 @@
     </image>
     <image src="images/2.png?t=1632896965">
       <hotspot source="specs" offsetX="239" offsetY="350" />
+      <hotspot source="specsmax" offsetX="480" offsetY="371" />
       <highres src="images/highres/2.png?t=1632896965" />
     </image>
     <image src="images/3.png?t=1632896965">
       <highres src="images/highres/3.png?t=1632896965" />
+      <hotspot source="specs" offsetX="250" offsetY="350" />
     </image>
     <image src="images/4.png?t=1632896965">
       <highres src="images/highres/4.png?t=1632896965" />
+      <hotspot source="specs" offsetX="260" offsetY="350" />
     </image>
     <image src="images/5.png?t=1632896965">
       <highres src="images/highres/5.png?t=1632896965" />
@@ -48,17 +51,21 @@
     </image>
     <image src="images/8.png?t=1632896965">
       <highres src="images/highres/8.png?t=1632896965" />
+      <hotspot source="back" offsetX="320" offsetY="276" />
     </image>
     <image src="images/9.png?t=1632896965">
+    <hotspot source="back" offsetX="340" offsetY="276" />
       <highres src="images/highres/9.png?t=1632896965" />
     </image>
     <image src="images/10.png?t=1632896965">
       <highres src="images/highres/10.png?t=1632896965" />
     </image>
     <image src="images/11.png?t=1632896965">
+    <hotspot source="operate" offsetX="260" offsetY="197" />
       <highres src="images/highres/11.png?t=1632896965" />
     </image>
     <image src="images/12.png?t=1632896965">
+    <hotspot source="operate" offsetX="280" offsetY="197" />
       <highres src="images/highres/12.png?t=1632896965" />
     </image>
   </images>

@@ -309,8 +309,8 @@ a:hover {
 }
 
 .navbar .navbar-brand {
-	padding-top: 0.25rem;
-	padding-bottom: 0.25rem;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .navbar .logo-image img {
@@ -381,6 +381,7 @@ a:hover {
         opacity: 1;
 	}
 }
+
 
 .navbar .dropdown-menu {
 	margin-top: 0.25rem;

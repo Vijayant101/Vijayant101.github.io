@@ -29,6 +29,10 @@
       <highres src="images/highres/1.png?t=1632895608" />
     </image>
     <image src="images/2.png?t=1632895608">
+    <hotspot source="operate" offsetX="106" offsetY="132" />
+      <hotspot source="output" offsetX="146" offsetY="286" />
+      <hotspot source="controls" offsetX="324" offsetY="308" />
+      <hotspot source="screen" offsetX="306" offsetY="182" />
       <highres src="images/highres/2.png?t=1632895608" />
     </image>
     <image src="images/3.png?t=1632895608">
@@ -59,6 +63,10 @@
       <highres src="images/highres/11.png?t=1632895608" />
     </image>
     <image src="images/12.png?t=1632895608">
+    <hotspot source="operate" offsetX="76" offsetY="132" />
+      <hotspot source="output" offsetX="106" offsetY="286" />
+      <hotspot source="controls" offsetX="284" offsetY="308" />
+      <hotspot source="screen" offsetX="266" offsetY="182" />
       <highres src="images/highres/12.png?t=1632895608" />
     </image>
   </images>

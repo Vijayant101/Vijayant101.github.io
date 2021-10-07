@@ -17,7 +17,7 @@
       <spotinfo src="images/spots/5.jpg?t=1632895608" imgWidth="185" txt="Onboard controls" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
     <hotspot id="screen" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="images/spots/7.jpg?t=1632895608" imgWidth="199" imgNoScale="true" txt="High-Res LCD Screen" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+      <spotinfo src="images/spots/7.jpg?t=1632895608" imgWidth="199" imgNoScale="true" txt="High-Res LCD Screen"  css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="640" highresHeight="640">

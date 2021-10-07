@@ -8,16 +8,16 @@
   </settings>
   <hotspots>
     <hotspot id="operate" renderMode="3" indicatorImage="geo-short-red.svg">
-      <spotinfo src="images/spots/4.jpg?t=1632895608" imgWidth="190" txt="Learn to operate" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.youtube.com/watch?v=apOoI5TR3k0" urlTarget="_blank" />
+      <spotinfo src="images/spots/4.jpg?t=1632895608" imgWidth="190" txt="Learn to operate" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.medikabazaar.com/catalogsearch/result/?q=ecg+machine" urlTarget="_blank" />
     </hotspot>
     <hotspot id="output" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="images/spots/6.jpg?t=1632895608" imgWidth="193" txt="ECG report" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+      <spotinfo src="images/spots/6.jpg?t=1632895608" imgWidth="193" txt="ECG report" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.medikabazaar.com/catalogsearch/result/?q=ecg+machine" urlTarget="_blank" />
     </hotspot>
     <hotspot id="controls" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="images/spots/5.jpg?t=1632895608" imgWidth="185" txt="Onboard controls" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+      <spotinfo src="images/spots/5.jpg?t=1632895608" imgWidth="185" txt="Onboard controls" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.medikabazaar.com/catalogsearch/result/?q=ecg+machine" urlTarget="_blank" />
     </hotspot>
     <hotspot id="screen" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="images/spots/7.jpg?t=1632895608" imgWidth="199" imgNoScale="true" txt="High-Res LCD Screen" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+      <spotinfo src="images/spots/7.jpg?t=1632895608" imgWidth="199" imgNoScale="true" txt="High-Res LCD Screen" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" url="https://www.medikabazaar.com/catalogsearch/result/?q=ecg+machine" urlTarget="_blank" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="640" highresHeight="640">

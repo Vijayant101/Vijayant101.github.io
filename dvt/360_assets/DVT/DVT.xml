@@ -1,72 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
   <settings>
-    <preloader image="images/1.png?t=1632896965" />
+    <preloader image="https://res.cloudinary.com/mbexp/image/upload/v1633945900/Assets/DVT/1_wjnolf.png />
     <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" />
     <control dragSpeed="0.24" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" />
     <rotation firstImage="0" rotate="false" rotatePeriod="12" bounce="false" rotateDirection="1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
   </settings>
   <hotspots>
     <hotspot id="operate" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="images/spots/2.jpg?t=1632896965" imgBkColor="#C0C0C0" imgWidth="514" txt="Learn to operate" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+      <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/v1633945860/Assets/DVT/spots/2_tixtae.jpg" imgBkColor="#C0C0C0" imgWidth="514" txt="Learn to operate" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
     <hotspot id="back" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="images/spots/3.jpg?t=1632896965" imgWidth="572" imgNoScale="true" txt="Back Panel" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+      <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/v1633945861/Assets/DVT/spots/3_obcbah.jpg" imgWidth="572" imgNoScale="true" txt="Back Panel" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
     <hotspot id="specs" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="images/spots/4.jpg?t=1632896965" imgWidth="675" txt="Benefits " css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);"  />
+      <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/v1633945861/Assets/DVT/spots/4_zy9xzt.jpg" imgWidth="675" txt="Benefits " css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);"  />
     </hotspot>
     <hotspot id="specsmax" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="images/spots/1.jpg?t=1632896965" imgWidth="589" imgNoScale="true" txt="Specifications" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+      <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/v1633945860/Assets/DVT/spots/1_jmdldv.jpg" imgWidth="589" imgNoScale="true" txt="Specifications" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="640" highresHeight="640">
-    <image src="images/1.png?t=1632896965">
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945900/Assets/DVT/1_wjnolf.png">
       <hotspot source="operate" offsetX="316" offsetY="197" />
       <hotspot source="specsmax" offsetX="467" offsetY="371" />
-      <highres src="images/highres/1.png?t=1632896965" />
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945890/Assets/DVT/highres/1_ld0jcm.png" />
     </image>
-    <image src="images/2.png?t=1632896965">
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945901/Assets/DVT/2_tps07t.png">
       <hotspot source="specs" offsetX="239" offsetY="350" />
       <hotspot source="specsmax" offsetX="480" offsetY="371" />
-      <highres src="images/highres/2.png?t=1632896965" />
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945891/Assets/DVT/highres/2_oggrxu.png" />
     </image>
-    <image src="images/3.png?t=1632896965">
-      <highres src="images/highres/3.png?t=1632896965" />
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945901/Assets/DVT/3_j2oiwr.png">
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945891/Assets/DVT/highres/3_n3xpnr.png" />
       <hotspot source="specs" offsetX="250" offsetY="350" />
     </image>
-    <image src="images/4.png?t=1632896965">
-      <highres src="images/highres/4.png?t=1632896965" />
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945899/Assets/DVT/4_kf0jip.png">
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945890/Assets/DVT/highres/4_hxqgw7.png" />
       <hotspot source="specs" offsetX="260" offsetY="350" />
     </image>
-    <image src="images/5.png?t=1632896965">
-      <highres src="images/highres/5.png?t=1632896965" />
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945899/Assets/DVT/5_k8xhej.png">
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945891/Assets/DVT/highres/5_n5r4d4.png" />
     </image>
-    <image src="images/6.png?t=1632896965">
-      <highres src="images/highres/6.png?t=1632896965" />
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945899/Assets/DVT/6_awc5wa.png">
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945891/Assets/DVT/highres/6_saa4un.png" />
     </image>
-    <image src="images/7.png?t=1632896965">
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945900/Assets/DVT/7_limczd.png">
       <hotspot source="back" offsetX="309" offsetY="276" />
-      <highres src="images/highres/7.png?t=1632896965" />
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945891/Assets/DVT/highres/7_nu5wrl.png" />
     </image>
-    <image src="images/8.png?t=1632896965">
-      <highres src="images/highres/8.png?t=1632896965" />
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945899/Assets/DVT/8_jdrntj.png">
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945890/Assets/DVT/highres/8_qxgxec.png" />
       <hotspot source="back" offsetX="320" offsetY="276" />
     </image>
-    <image src="images/9.png?t=1632896965">
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945899/Assets/DVT/9_yccwur.png">
     <hotspot source="back" offsetX="340" offsetY="276" />
-      <highres src="images/highres/9.png?t=1632896965" />
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945890/Assets/DVT/highres/9_maze74.png" />
     </image>
-    <image src="images/10.png?t=1632896965">
-      <highres src="images/highres/10.png?t=1632896965" />
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945900/Assets/DVT/10_xar8pe.png">
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945890/Assets/DVT/highres/10_pbadbv.png" />
     </image>
-    <image src="images/11.png?t=1632896965">
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945900/Assets/DVT/11_zsxwuq.png">
     <hotspot source="operate" offsetX="260" offsetY="197" />
-      <highres src="images/highres/11.png?t=1632896965" />
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945890/Assets/DVT/highres/11_oz5syb.png" />
     </image>
-    <image src="images/12.png?t=1632896965">
+    <image src="https://res.cloudinary.com/mbexp/image/upload/v1633945901/Assets/DVT/12_zdawbo.png">
     <hotspot source="operate" offsetX="280" offsetY="197" />
-      <highres src="images/highres/12.png?t=1632896965" />
+      <highres src="https://res.cloudinary.com/mbexp/image/upload/v1633945890/Assets/DVT/highres/12_dyap42.png" />
     </image>
   </images>
 </config>

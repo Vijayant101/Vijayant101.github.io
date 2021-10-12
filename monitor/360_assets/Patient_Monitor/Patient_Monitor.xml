@@ -8,18 +8,6 @@
   </settings>
   <hotspots>
     <hotspot id="screen" renderMode="3" indicatorImage="circ-cross-large-orange.svg" effects="scaleUp">
-<<<<<<< HEAD
-      <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/spots/Screen_oixm9v.jpg" imgWidth="100%" txt="10.4-inch TFT touch screen, touch and jog dial dual operation" css="font-family:Arial Black;font-size:14px;color:#333333;width:100%;padding:15px 15px;border:7px solid #EEEEEE;background-color:rgba(255,255,255,1);"/>
-    </hotspot>
-    <hotspot id="standoptions" renderMode="3" indicatorImage="circ-cross-thin-blue.svg" effects="scaleUp">
-      <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947368/Assets/Monitor/spots/Screen_2_kekkl9.jpg" txt="Mounting options" css="color:#333333;width:100%;padding:15px 15px;background-color:rgba(255,255,255,1);"/>
-    </hotspot>
-    <hotspot id="batterycapacity" renderMode="3" indicatorImage="circ-cross-thin-blue.svg" effects="scaleUp">
-      <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947367/Assets/Monitor/spots/Screen_3_gipvhq.jpg" imgWidth="100%" txt="4000 mAh battery capacity" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);"/>
-    </hotspot>
-    <hotspot id="modesscreen" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
-      <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/spots/Screen_4_bfsava.jpg" imgWidth="100%" imgNoScale="true" txt="Screen Modes" css="color:#333333;max-width:100%;
-=======
       <spotinfo src="images/spots/Screen.jpg?t=1633587149" imgWidth="100%" txt="10.4-inch TFT touch screen, touch and jog dial dual operation" css="font-family:Arial Black;font-size:14px;color:#333333;width:100%;padding:15px 15px;border:7px solid #EEEEEE;background-color:rgba(255,255,255,1);"/>
     </hotspot>
     <hotspot id="standoptions" renderMode="3" indicatorImage="circ-cross-thin-blue.svg" effects="scaleUp">
@@ -30,59 +18,10 @@
     </hotspot>
     <hotspot id="modesscreen" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
       <spotinfo src="images/spots/Screen 4.jpg?t=1633587149" imgWidth="100%" imgNoScale="true" txt="Screen Modes" css="color:#333333;max-width:100%;
->>>>>>> parent of 28a98fc (Update)
 max-height:100%;;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);"/>
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="640" highresHeight="640">
-<<<<<<< HEAD
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/1_z7ntdm.png">
-      <hotspot source="screen" offsetX="230" offsetY="216" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947371/Assets/Monitor/highres/1_edsws7.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947371/Assets/Monitor/2_bdfcd5.png">
-    <hotspot source="screen" offsetX="197" offsetY="216" />
-      <hotspot source="modesscreen" offsetX="136" offsetY="126" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947371/Assets/Monitor/highres/2_pl8ycv.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947368/Assets/Monitor/3_dvdpus.png">
-    <hotspot source="screen" offsetX="184" offsetY="216" />
-    <hotspot source="modesscreen" offsetX="170" offsetY="126" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947371/Assets/Monitor/highres/3_pkjc1u.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/4_giebpi.png">
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947370/Assets/Monitor/highres/4_oys79m.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947368/Assets/Monitor/5_ie5dh0.png">
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/highres/5_mvuhke.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947368/Assets/Monitor/6_jrcuxg.png">
-    <hotspot source="standoptions" offsetX="230" offsetY="207" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947372/Assets/Monitor/highres/6_z31xsy.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947370/Assets/Monitor/7_wghxho.png">
-      <hotspot source="standoptions" offsetX="214" offsetY="207" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947372/Assets/Monitor/highres/7_yy3jag.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/8_liisgo.png">
-    <hotspot source="standoptions" offsetX="200" offsetY="207" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/highres/8_ciuxiu.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/9_gewazm.png">
-    <hotspot source="batterycapacity" offsetX="210" offsetY="347" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947370/Assets/Monitor/highres/9_lk7hyz.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947370/Assets/Monitor/10_pvhilq.png">
-      <hotspot source="batterycapacity" offsetX="230" offsetY="347" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947370/Assets/Monitor/highres/10_i9wilx.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947369/Assets/Monitor/11_vl6qxz.png">
-    <hotspot source="batterycapacity" offsetX="240" offsetY="347" />
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947371/Assets/Monitor/highres/11_qiaaok.png" />
-    </image>
-    <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947370/Assets/Monitor/12_oqreh5.png">
-      <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633947371/Assets/Monitor/highres/12_b2iwm9.png" />
-=======
     <image src="images/1.png?t=1633587149">
       <hotspot source="screen" offsetX="230" offsetY="216" />
       <highres src="images/highres/1.png?t=1633587149" />
@@ -129,7 +68,6 @@ max-height:100%;;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgb
     </image>
     <image src="images/12.png?t=1633587149">
       <highres src="images/highres/12.png?t=1633587149" />
->>>>>>> parent of 28a98fc (Update)
     </image>
   </images>
 </config>

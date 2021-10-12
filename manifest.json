@@ -4,14 +4,14 @@
   "name": "Next-Gen Product Experience",
   "icons": [
     {
-      "src": "images/logo.png",
+      "src": "https://res.cloudinary.com/mbexp/image/upload/w_192,h_192,c_scalev1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg",
       "type": "image/png",
-      "sizes": "500x500"
+      "sizes": "192x192"
     },
     {
-      "src": "images/logo.png",
+      "src": "https://res.cloudinary.com/mbexp/image/upload/w_512,h_512,c_scalev1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg",
       "type": "image/png",
-      "sizes": "500x500"
+      "sizes": "512x512"
     }
   ],
   "start_url": "/",
@@ -25,7 +25,7 @@
       "short_name": "MB",
       "description": "Next-Gen Product Experience",
       "url": "/",
-      "icons": [{ "src": "images/logo.png", "sizes": "500x500" }]
+      "icons": [{ "src": "https://res.cloudinary.com/mbexp/image/upload/w_512,h_512,c_scalev1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg", "sizes": "512x512" }]
     }
   ],
   "description": "Next-Gen Product Experience",

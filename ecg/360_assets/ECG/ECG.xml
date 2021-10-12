@@ -8,6 +8,7 @@
   </settings>
   <hotspots>
     <hotspot id="operate" renderMode="3" indicatorImage="geo-short-red.svg">
+<<<<<<< HEAD
       <spotinfo src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946386/Assets/ECG/spots/4_dmqodk.jpg" imgWidth="190" txt="Learn to operate" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
     <hotspot id="output" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
@@ -22,17 +23,40 @@
   </hotspots>
   <images rows="1" highresWidth="640" highresHeight="640">
     <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946384/Assets/ECG/1_iyvz9y.png">
+=======
+      <spotinfo src="images/spots/4.jpg?t=1632895608" imgWidth="190" txt="Learn to operate" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="output" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo src="images/spots/6.jpg?t=1632895608" imgWidth="193" txt="ECG report" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="controls" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo src="images/spots/5.jpg?t=1632895608" imgWidth="185" txt="Onboard controls" css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="screen" renderMode="3" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo src="images/spots/7.jpg?t=1632895608" imgWidth="199" imgNoScale="true" txt="High-Res LCD Screen"  css="color:#333333;width:100%;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="640" highresHeight="640">
+    <image src="images/1.png?t=1632895608">
+>>>>>>> parent of 57c33f2 (hello)
       <hotspot source="operate" offsetX="96" offsetY="132" />
       <hotspot source="output" offsetX="126" offsetY="286" />
       <hotspot source="controls" offsetX="304" offsetY="308" />
       <hotspot source="screen" offsetX="286" offsetY="182" />
+<<<<<<< HEAD
       <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946387/Assets/ECG/highres/1_xudl1d.png" />
     </image>
     <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946384/Assets/ECG/2_lqyy7o.png">
+=======
+      <highres src="images/highres/1.png?t=1632895608" />
+    </image>
+    <image src="images/2.png?t=1632895608">
+>>>>>>> parent of 57c33f2 (hello)
     <hotspot source="operate" offsetX="106" offsetY="132" />
       <hotspot source="output" offsetX="146" offsetY="286" />
       <hotspot source="controls" offsetX="324" offsetY="308" />
       <hotspot source="screen" offsetX="306" offsetY="182" />
+<<<<<<< HEAD
       <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946387/Assets/ECG/highres/2_nlfjq9.png" />
     </image>
     <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946385/Assets/ECG/3_k1f24k.png">
@@ -63,11 +87,47 @@
       <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946384/Assets/ECG/highres/11_h2evlw.png" />
     </image>
     <image src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946386/Assets/ECG/12_azbrnb.png">
+=======
+      <highres src="images/highres/2.png?t=1632895608" />
+    </image>
+    <image src="images/3.png?t=1632895608">
+      <highres src="images/highres/3.png?t=1632895608" />
+    </image>
+    <image src="images/4.png?t=1632895608">
+      <highres src="images/highres/4.png?t=1632895608" />
+    </image>
+    <image src="images/5.png?t=1632895608">
+      <highres src="images/highres/5.png?t=1632895608" />
+    </image>
+    <image src="images/6.png?t=1632895608">
+      <highres src="images/highres/6.png?t=1632895608" />
+    </image>
+    <image src="images/7.png?t=1632895608">
+      <highres src="images/highres/7.png?t=1632895608" />
+    </image>
+    <image src="images/8.png?t=1632895608">
+      <highres src="images/highres/8.png?t=1632895608" />
+    </image>
+    <image src="images/9.png?t=1632895608">
+      <highres src="images/highres/9.png?t=1632895608" />
+    </image>
+    <image src="images/10.png?t=1632895608">
+      <highres src="images/highres/10.png?t=1632895608" />
+    </image>
+    <image src="images/11.png?t=1632895608">
+      <highres src="images/highres/11.png?t=1632895608" />
+    </image>
+    <image src="images/12.png?t=1632895608">
+>>>>>>> parent of 57c33f2 (hello)
     <hotspot source="operate" offsetX="76" offsetY="132" />
       <hotspot source="output" offsetX="106" offsetY="286" />
       <hotspot source="controls" offsetX="284" offsetY="308" />
       <hotspot source="screen" offsetX="266" offsetY="182" />
+<<<<<<< HEAD
       <highres src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1633946387/Assets/ECG/highres/12_sxfulv.png" />
+=======
+      <highres src="images/highres/12.png?t=1632895608" />
+>>>>>>> parent of 57c33f2 (hello)
     </image>
   </images>
 </config>

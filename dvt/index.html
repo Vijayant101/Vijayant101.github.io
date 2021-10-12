@@ -41,7 +41,23 @@
     
     #wr360PlayerId .img_wrap {
     background-color: white !important;
-}
+    }
+
+    #viewerWrap1
+    {
+	margin: 0 auto 0 auto;
+	width: 100%;
+	max-width: 600px;
+	height: 450px;
+	border: 0;
+	position: relative;
+	background: url(360_assets/VansShoe/images/Filename_01.jpg) center center no-repeat;
+    }
+
+    #viewer1
+    {
+	background: none;
+    }
     </style>
 
 <script language="javascript" type="text/javascript">
@@ -53,7 +69,7 @@
             configFileURL: '360_assets/DVT/DVT.xml',
             graphicsPath: 'imagerotator/html/img/retina',
             alt: '360 degree view - DVT ',
-            responsiveBaseWidth: 0,
+            responsiveBaseWidth: 600,
             responsiveMinHeight: 0,
             googleEventTracking: false,
         });
@@ -117,20 +133,18 @@
 </nav> <!-- end of navbar -->
 <!-- end of navigation -->
 
-
-<div class="responsive-wrapper-demo-do-not-copy" style="max-width: 500px">    
-
-    <!-- Just copy / paste the content div below onto your page and define content CSS styles as needed -->
-
-    <div id="content">
-
-        <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;">
+<br><br><br><br>
+<div id="viewerWrap1">
+    <div id="viewer1" class="responsive-wrapper-demo-do-not-copy">
+            <div id="content">
+    
+                <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;">
+                </div>
+    
+            </div>
+    
         </div>
-
     </div>
-
-</div>  
-
 
 <script src="js/scripts.js"></script> <!-- Custom scripts -->  
 

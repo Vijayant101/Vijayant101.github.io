@@ -1,0 +1,44 @@
+
+{
+  "short_name": "Medikabazaar",
+  "name": "Next-Gen Product Experience",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "Medikabazaar",
+      "short_name": "MB",
+      "description": "Next-Gen Product Experience",
+      "url": "/",
+      "icons": [{ "src": "images/logo.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Next-Gen Product Experience",
+  "screenshots": [
+    {
+      "src": "/images/screenshot1.jpg",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
+}

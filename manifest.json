@@ -4,12 +4,12 @@
   "name": "Next-Gen Product Experience",
   "icons": [
     {
-      "src": "https://res.cloudinary.com/mbexp/image/upload/w_192,h_192,c_scalev1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg",
+      "src": "https://res.cloudinary.com/mbexp/image/upload/w_192,h_192,c_scalev/1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://res.cloudinary.com/mbexp/image/upload/w_512,h_512,c_scalev1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg",
+      "src": "https://res.cloudinary.com/mbexp/image/upload/w_512,h_512,c_scale/v1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -25,7 +25,7 @@
       "short_name": "MB",
       "description": "Next-Gen Product Experience",
       "url": "/",
-      "icons": [{ "src": "https://res.cloudinary.com/mbexp/image/upload/w_512,h_512,c_scalev1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg", "sizes": "512x512" }]
+      "icons": [{ "src": "https://res.cloudinary.com/mbexp/image/upload/w_512,h_512,c_scale/v1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg", "sizes": "512x512" }]
     }
   ],
   "description": "Next-Gen Product Experience",

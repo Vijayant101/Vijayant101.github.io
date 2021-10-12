@@ -15,6 +15,25 @@
 	  <link href="css/styles.css" rel="stylesheet">
     <link rel="icon" href="https://res.cloudinary.com/mbexp/image/upload/q_auto,f_auto/v1633943292/Assets/BiPAP%20Assets/favicon_remhgc.png">
 
+    <style>
+      #viewerWrap1
+      {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    position: relative;
+    background: url(360_assets/VansShoe/images/Filename_01.jpg) center center no-repeat;
+      }
+  
+      #viewer1
+      {
+    background: none;
+      }
+      </style>
+  
+
     <!--Imports a model-viewer JavaScript code -->
     <!--It helps to handle how the 3D Object would be displayed -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -23,57 +42,13 @@
 
 <body oncontextmenu="return false;">
 
-<!-- Navigation -->
-<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
-  <div class="container">
 
-      <!-- Image Logo -->
-      <a class="navbar-brand logo-image" href="/"><img src="https://res.cloudinary.com/mbexp/image/upload/q_auto,f_auto/v1633943293/Assets/BiPAP%20Assets/logo_dl9xtd.jpg" alt="alternative"></a> 
-
-      <!-- Text Logo - Use this if you don't have a graphic logo -->
-      <!-- <a class="navbar-brand logo-text" href="index.html">Yavin</a> -->
-
-      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav ms-auto navbar-nav-scroll">
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
-              
-
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">3D/AR Product Visualisation</a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                      <li><a class="dropdown-item" href="/Dental/">Dental Chair</a></li>
-                      <li><div class="dropdown-divider"></div></li>
-                      <li><a class="dropdown-item" href="/bipap/">BiPAP Machine</a></li>
-                  </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">360 degree Products Visualisation</a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                      <li><a class="dropdown-item" href="/dvt/">DVT Pump</a></li>
-                      <li><div class="dropdown-divider"></div></li>
-                      <li><a class="dropdown-item" href="/monitor/">Patient Monitor</a></li>
-                      <li><div class="dropdown-divider"></div></li>
-                      <li><a class="dropdown-item" href="/ecg/">ECG Machine</a></li>
-                  </ul>
-              </li>
-          </ul>
-          <span class="nav-item">
-              <a class="btn-outline-sm" href="/video.html">Product Video</a>
-          </span>
-      </div> <!-- end of navbar-collapse -->
-  </div> <!-- end of container -->
-</nav> <!-- end of navbar -->
-<!-- end of navigation -->
       
     
-  
+  <div id="viewerWrap1">
+    <div id="viewer1">
+      <br>
+      <p style="font-weight: bold; text-align: center; border-style: double; border-width: 1px; dodgerblue;" > BIPAP MACHINE </p>
             <div id="card">
               <!-- All you need to put beautiful, interactive 3D content on your site: -->
               <model-viewer id="resp-machine"
@@ -130,7 +105,8 @@
           
                 </div>
               </model-viewer>
-          
+          </div>
+          </div>
           
               <script>
                 // Get the modal

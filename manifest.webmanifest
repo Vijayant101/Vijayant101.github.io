@@ -1,22 +1,12 @@
 {
-    "theme_color": "#f69435",
-    "background_color": "#ffff",
+    "theme_color": "#f69435 #fcfcfc",
+    "background_color": "#ffffff",
     "display": "standalone",
-    "display_override": ["window-control-overlay", "minimal-ui"],
     "scope": "/",
     "start_url": "/",
-    "shortcuts": [
-    {
-      "name": "MEDIKABAZAAR",
-      "short_name": "MB",
-      "description": "Experience Next-Gen Now",
-      "url": "/",
-      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
-    }
-  ],
-    "name": "MEDIKABAZAAR",
-    "short_name": "MB",
-    "description": "Next-Gen Product Experience",
+    "name": "Medikabazaar",
+    "short_name": "Medikabazaar",
+    "description": "Next-Gen Product Visualisation",
     "icons": [
         {
             "src": "/icon-192x192.png",
@@ -40,4 +30,3 @@
         }
     ]
 }
-

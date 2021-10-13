@@ -7,7 +7,6 @@
     "background_color": "#ffff",
 >>>>>>> parent of 9e00272 (hmm)
     "display": "standalone",
-    "display_override": ["window-control-overlay", "minimal-ui"],
     "scope": "/",
     "start_url": "/",
 <<<<<<< HEAD

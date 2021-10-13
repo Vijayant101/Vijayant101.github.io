@@ -21,7 +21,11 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="msapplication-starturl" content="/">
     <script src="/index.js" defer></script>
-    
+    <script type="module">
+        import "https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate";
+        const el = document.createElement("pwa-update");
+        document.body.appendChild(el);
+      </script>
 
     <!-- Webpage Title -->
     <title>3D/AR/Video- MB</title>

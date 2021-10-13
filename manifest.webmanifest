@@ -1,9 +1,14 @@
 {
-    "theme_color": "#f69435 #fcfcfc",
+    "theme_color": "#fcfcfc",
     "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "./index.html",
+    "url_handlers": [
+        {
+          "origin": "https://vijayant101.github.io"
+        }
+      ]
     "name": "Medikabazaar",
     "short_name": "Medikabazaar",
     "description": "Next-Gen Product Visualisation",

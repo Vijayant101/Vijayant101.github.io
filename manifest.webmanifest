@@ -2,6 +2,7 @@
     "theme_color": "#f69435",
     "background_color": "#ffff",
     "display": "standalone",
+    "display_override": ["window-control-overlay", "minimal-ui"],
     "scope": "/",
     "start_url": "/",
     "shortcuts": [

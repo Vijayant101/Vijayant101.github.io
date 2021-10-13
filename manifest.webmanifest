@@ -6,14 +6,14 @@
     "start_url": "/",
     "shortcuts": [
     {
-      "name": "Medikabazaar",
+      "name": "MEDIKABAZAAR",
       "short_name": "MB",
       "description": "Experience Next-Gen Now",
       "url": "/",
       "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
     }
   ],
-    "name": "Medikabazaar",
+    "name": "MEDIKABAZAAR",
     "short_name": "MB",
     "description": "Next-Gen Product Experience",
     "icons": [

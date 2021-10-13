@@ -1537,3 +1537,16 @@ a:hover {
 .dropdown > .dropdown-menu.show {
 	display: none;
 }
+
+.add-button {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+  }
+  
+  @media (orientation: portrait) {
+	img {
+	  height: 100%;
+	  object-fit: cover;
+	}
+  }

@@ -1,15 +1,9 @@
 {
-<<<<<<< HEAD
     "theme_color": "#fcfcfc",
     "background_color": "#ffffff",
-=======
-    "theme_color": "#f69435",
-    "background_color": "#ffff",
->>>>>>> parent of 9e00272 (hmm)
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-<<<<<<< HEAD
     "url_handlers": [
         {
           "origin": "https://vijayant101.github.io"
@@ -18,20 +12,6 @@
     "name": "Medikabazaar",
     "short_name": "Medikabazaar",
     "description": "Next-Gen Product Visualisation",
-=======
-    "shortcuts": [
-    {
-      "name": "MEDIKABAZAAR",
-      "short_name": "MB",
-      "description": "Experience Next-Gen Now",
-      "url": "/",
-      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
-    }
-  ],
-    "name": "MEDIKABAZAAR",
-    "short_name": "MB",
-    "description": "Next-Gen Product Experience",
->>>>>>> parent of 9e00272 (hmm)
     "icons": [
         {
             "src": "/icon-192x192.png",

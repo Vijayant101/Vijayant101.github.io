@@ -1,4 +1,4 @@
-/*
+
 self.addEventListener('install', async event => {
   console.log('install event');
 });
@@ -66,6 +66,5 @@ async function cacheFirst(req) {
   const cachedResponse = await cache.match(req);
   return cachedResponse || networkFirst(req);
 }
-*/
 
-self.addEventListener("fetch", function (event) {});
+

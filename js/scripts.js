@@ -104,6 +104,6 @@ function topFunction() {
 	document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
 }
 
-$(document).bind("contextmenu",function(e){
+(document).bind("contextmenu",function(e){
 	return false;
 	  });

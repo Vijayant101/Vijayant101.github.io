@@ -179,5 +179,33 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="./js/scripts.js"></script> <!-- Custom scripts --> 
 
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAsDaeNu_uwLs51CgRzzcS7wqJKkfL_XXk",
+    authDomain: "pwapush-56bb6.firebaseapp.com",
+    projectId: "pwapush-56bb6",
+    storageBucket: "pwapush-56bb6.appspot.com",
+    messagingSenderId: "664903588727",
+    appId: "1:664903588727:web:57f52d3632edfc380f5f72",
+    measurementId: "G-ENG2YXS3PJ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+
+
+
 </body>
 </html>

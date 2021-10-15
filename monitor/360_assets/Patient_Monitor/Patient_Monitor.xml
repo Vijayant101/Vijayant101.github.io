@@ -11,7 +11,7 @@
       <spotinfo src="images/spots/Screen.jpg?t=1633587149" imgWidth="100%" txt="10.4-inch TFT touch screen, touch and jog dial dual operation" css="font-family:Arial Black;font-size:14px;color:#333333;width:100%;padding:15px 15px;border:7px solid #EEEEEE;background-color:rgba(255,255,255,1);"/>
     </hotspot>
     <hotspot id="standoptions" renderMode="3" indicatorImage="circ-cross-thin-blue.svg" effects="scaleUp">
-      <spotinfo src="images/spots/Screen 2.jpg?t=1633587149" imgWidth="100%" txt="Mounting options" css="color:#333333;width:100%;padding:15px 15px;border:7px solid #EEEEEE;background-color:rgba(255,255,255,1);"/>
+      <spotinfo src="images/spots/Screen 2.jpg?t=1633587149" imgWidth="100%" txt="4000 mAh battery capacity" css="color:#333333;width:100%;padding:15px 15px;border:7px solid #EEEEEE;background-color:rgba(255,255,255,1);"/>
     </hotspot>
     <hotspot id="batterycapacity" renderMode="3" indicatorImage="circ-cross-thin-blue.svg" effects="scaleUp">
       <spotinfo src="images/spots/Screen 3.jpg?t=1633587149" imgWidth="100%" txt="4000 mAh battery capacity" css="color:#333333;width:100%;padding:15px 15px;border:7px solid #EEEEEE;background-color:rgba(255,255,255,1);"/>

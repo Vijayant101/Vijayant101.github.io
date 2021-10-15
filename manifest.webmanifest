@@ -12,6 +12,8 @@
     "name": "MEDIKABAZAAR",
     "short_name": "MEDIKABAZAAR",
     "description": "Next-Gen Product Visualisation",
+    "splash_pages": null,
+    "gcm_sender_id": "664903588727",
     "icons": [
         {
             "src": "/icon-192x192.png",
@@ -35,4 +37,25 @@
         }
     ]
 }
+
+{
+    "name": "Push Notification App",
+    "short_name": "PushApp",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "browser",
+    "Scope": "/",
+    "start_url": "/",
+    "icons": [
+    ...
+    {
+        "src": "images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+    ],
+    "splash_pages": null,
+    "gcm_sender_id": "SENDER_ID"
+}
+
 

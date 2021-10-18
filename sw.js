@@ -1,4 +1,4 @@
-
+/*
 self.addEventListener('install', async event => {
   console.log('install event');
 });
@@ -66,8 +66,8 @@ async function cacheFirst(req) {
   const cachedResponse = await cache.match(req);
   return cachedResponse || networkFirst(req);
 }
+*/
 
-<<<<<<< HEAD
 self.addEventListener("fetch", function (event) {});
 
 /* Added Block of Code for Push Notification*/
@@ -83,4 +83,4 @@ self.addEventListener('activate', async () => {
   }
 });
 /* Added Code */
-
+const subscription = await self.registration.pushManager.getSubscription()

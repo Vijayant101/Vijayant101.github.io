@@ -72,6 +72,15 @@
         const permission = await requestNotificationPermission()
         }
         </script>
+
+        <style>
+        .add-button {
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        }
+       </style>
+
   
 </head>
 
@@ -242,6 +251,8 @@ const appCheck = initializeAppCheck(app, {
 });
 </script>
 -->
+
+<button class="add-button">Add to home screen</button>
 
 </body>
 </html>

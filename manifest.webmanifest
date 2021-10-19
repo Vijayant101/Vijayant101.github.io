@@ -12,6 +12,7 @@
     "name": "MEDIKABAZAAR",
     "short_name": "MEDIKABAZAAR",
     "description": "Next-Gen Product Visualisation",
+    "prefer_related_applications": false,
     "splash_pages": null,
     "gcm_sender_id": "664903588727",
     "icons": [

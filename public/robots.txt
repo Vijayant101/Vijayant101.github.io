@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow:
-Sitemap: https://vijayant101.github.io/sitemap.xml

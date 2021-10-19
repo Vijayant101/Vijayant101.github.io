@@ -1,229 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- SEO Meta Tags -->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
 
-  <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-  <meta property="og:site_name" content="MB - Next Gen" /> <!-- website name -->
-  <meta property="og:site" content="https://vijayant101.github.io" /> <!-- website link -->
-  <meta property="og:title" content="Medikabazaar - Next Gen Product Visualisation"/> <!-- title shown in the actual shared post -->
-  <meta property="og:description" content="Next-Gen Product Experience" /> <!-- description shown in the actual shared post -->
-  <meta property="og:image" content="https://res.cloudinary.com/mbexp/image/upload/f_auto/v1634190320/Untitled_tsr9ir.png" /> <!-- image link, make sure it's jpg -->
-  <meta property="og:url" content="https://vijayant101.github.io" /> <!-- where do you want your post to link to -->
-  <meta name="twitter:card" content="https://res.cloudinary.com/mbexp/image/upload/v1634190320/Untitled_tsr9ir.png"> <!-- to have large image post format in Twitter -->
-  <link rel="manifest" href="./manifest.webmanifest">
-<meta name="keywords" content="Innovation, Healthtech, Medikabazaar, 3D, AR, 360-product">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  <meta name="revisit-after" content="3 days">
-  <meta name="author" content="Vijayant Kumar">
-  <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="msapplication-starturl" content="./">
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="./css/swiper.css" rel="stylesheet">
-	<link href="./css/styles.css" rel="stylesheet">
-    
-   
-	<!-- Favicon  -->
-    <link rel="icon" href="./images/favicon.png">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.1.3/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.1.3/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.1.3/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-     <!-- Scripts -->
-   
-     <script src="./js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <!-- Purecounter counter for statistics numbers -->
-      
-     
-     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-     
-        <script>
-            if ("serviceWorker" in navigator) {
-            navigator.serviceWorker
-                .register("sw.js")
-                .then(function (registration) {
-             console.log("success load");
-            })
-            .catch(function (err) {
-                console.log(err);
-            });
-            };
-        </script>
-  
-</head>
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    </div>
+    <p id="load">Firebase SDK Loading&hellip;</p>
 
-<body oncontextmenu="return false;">
-    
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
-    <div class="container">
-  
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="./"><img src="https://res.cloudinary.com/mbexp/image/upload/q_auto/v1634310059/final_logo_icozp3.png" alt="Medikabazaar"></a> 
-  
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text" href="index.html">Yavin</a> -->
-  
-        <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./">Home</a>
-                </li>
-                
-  
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./arview.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">3D/AR Product Visualisation</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                        <li><a class="dropdown-item" href="./Dental/">Dental Chair</a></li>
-                        <li><div class="dropdown-divider"></div></li>
-                        <li><a class="dropdown-item" href="./bipap/">BiPAP Machine</a></li>
-                    </ul>
-                </li>
-  
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./product.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">360 degree Products Visualisation</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                        <li><a class="dropdown-item" href="./dvt/">DVT Pump</a></li>
-                        <li><div class="dropdown-divider"></div></li>
-                        <li><a class="dropdown-item" href="./monitor/">Patient Monitor</a></li>
-                        <li><div class="dropdown-divider"></div></li>
-                        <li><a class="dropdown-item" href="./ecg/">ECG Machine</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <span class="nav-item">
-                <a class="btn-outline-sm" href="./video.html">Product Video</a>
-            </span>
-        </div> <!-- end of navbar-collapse -->
-    </div> <!-- end of container -->
-</nav> <!-- end of navbar -->
-  <!-- end of navigation -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-      
-    <!-- Header -->
-    <header id="header" class="header">
-        <img class="decoration-star" src="./images/decoration-star.svg" alt="alternative">
-        <img class="decoration-star-2" src="./images/decoration-star.svg" alt="alternative">
-        <div class="container">
-            <div class="row">
-		    <div class="col-lg-7 col-xl-7">
-                    <div class="text-container">
-                        <h1 class="h1-large" text-align="center">Next-Gen Product Visualisation</h1>
-                    </div> <!-- end of text-container -->
-               	   </div> <!-- end of col -->
-		    
-		    <div class="col-lg-5 col-xl-5">
-                    <div class="floating">
-                    <div class="image-container">
-                        <img class="img-fluid" src="./images/shopping-1.png" alt="alternative">
-                    </div> <!-- end of image-container --> <!--image-fluid-->
-                    </div>
-                </div> <!-- end of col --><br>
-		    
-		     <div class="col-lg-5 col-xl-7">
-                    <div class="text-container">
-                  	<a class="btn-solid-lg" href="./arview.html">Experience 3D-AR</a>
-                        <a class="btn-outline-lg" href="./video.html">Automatically Generated Product Video</a>
-                        <a class="btn-solid-lg" href="./product.html">360° Product Visualisation</a>
-                    </div>
-                </div> <!-- end of col -->
-		    
-		                
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
-
-
-    <!-- Statistics -->
-    <div class="counter">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Counter -->
-                    <div class="counter-container">
-                        <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1.5" data-purecounter-delay="80" class="purecounter">1</div>
-                            <div class="counter-info">Experience 3D-AR Product Models</div>
-                        </div> <!-- end of counter-cell -->
-                        <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="2" data-purecounter-delay="108" class="purecounter">1</div>
-                            <div class="counter-info">360-degree Product Visualisation</div>
-                        </div> <!-- end of counter-cell -->
-                        <div class="counter-cell">
-                            <div data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="3" data-purecounter-delay="120" class="purecounter">1</div>
-                            <div class="counter-info">Automatically Generated Product Videos</div>
-                        </div> <!-- end of counter-cell -->
-                         <!-- end of counter-cell -->
-                    </div> <!-- end of counter-container -->
-                    <!-- end of counter -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of statistics -->
-    	
-  <script src="./js/purecounter.min.js"></script>   
-  <script type="text/javascript" src="./js/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="./js/scripts.js"></script> <!-- Custom scripts --> 
-
-
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyAsDaeNu_uwLs51CgRzzcS7wqJKkfL_XXk",
-    authDomain: "pwapush-56bb6.firebaseapp.com",
-    projectId: "pwapush-56bb6",
-    storageBucket: "pwapush-56bb6.appspot.com",
-    messagingSenderId: "664903588727",
-    appId: "1:664903588727:web:57f52d3632edfc380f5f72",
-    measurementId: "G-ENG2YXS3PJ"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-
-
-<script type="module">
-    const { initializeApp } = require("firebase/app");
-const { initializeAppCheck, ReCaptchaV3Provider } = require("firebase/app-check");
-
-const app = initializeApp({
-  // Your firebase configuration object
-});
-
-// Pass your reCAPTCHA v3 site key (public key) to activate(). Make sure this
-// key is the counterpart to the secret key you set in the Firebase console.
-const appCheck = initializeAppCheck(app, {
-  provider: new ReCaptchaV3Provider('abcdefghijklmnopqrstuvwxy-1234567890abcd'),
-
-  // Optional argument. If true, the SDK automatically refreshes App Check
-  // tokens as needed.
-  isTokenAutoRefreshEnabled: true
-});
-</script>
-
-
-</body>
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
 </html>

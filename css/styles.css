@@ -436,17 +436,17 @@ a:hover {
 .header .decoration-star {
 	position: absolute;
 	top: 80px;
-	left: -100px;
+	left: -50px;
 	width: 200px;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .header .decoration-star-2 {
 	position: absolute;
 	top: 80px;
-	right: -100px;
+	right: -50px;
 	width: 200px;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .header div[class*="col"] {  

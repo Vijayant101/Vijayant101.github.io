@@ -436,9 +436,9 @@ a:hover {
 .header .decoration-star {
 	position: absolute;
 	top: 80px;
-	left: -30px;
+	left: -100px;
 	width: 200px;
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 .header .decoration-star-2 {

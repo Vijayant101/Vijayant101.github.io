@@ -1540,12 +1540,6 @@ a:hover {
 
 /*CSS added*/
 
-html, body {
-  width: 100%;
-  height: 100%;
-  background-color: #292929;
-  padding-top: 50px;
-}
 
 *, *:before, *:after {
   box-sizing: border-box;

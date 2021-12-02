@@ -1,4 +1,4 @@
-/*
+
 self.addEventListener('install', async event => {
   console.log('install event');
 });
@@ -66,21 +66,6 @@ async function cacheFirst(req) {
   const cachedResponse = await cache.match(req);
   return cachedResponse || networkFirst(req);
 }
-*/
+
 
 self.addEventListener("fetch", function (event) {});
-
-/* Added Block of Code for Push Notification*/
-
-self.addEventListener('activate', async () => {
-  // This will be called only once when the service worker is activated.
-  try {
-    const options = {}
-    const subscription = await self.registration.pushManager.subscribe(options)
-    console.log(JSON.stringify(subscription))
-  } catch (err) {
-    console.log('Error', err)
-  }
-});
-/* Added Code */
-const subscription = await self.registration.pushManager.getSubscription()
